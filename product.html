@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D-Shine- Jewellery, Diamond Business/shop Template</title>
+
+    <!--Favicons-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link rel="manifest" href="favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--Bootstrap and Other Vendors-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/flexslider/flexslider.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/bootstrap-rating/bootstrap-rating.css"
+      media="screen"
+    />
+
+    <!--Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Questrial"
+      rel="stylesheet"
+    />
+
+    <!--Mechanic Styles-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+    <header class="row" id="header">
+      <div class="row m0 logo_line">
+        <div class="container">
+          <div class="row logoSearch">
+            <div class="col-sm-5 logo">
+              <a href="index.html" class="logo_a"
+                ><img src="images/dshine-logo.png" alt="D-shine" />
+              </a>
+            </div>
+            <div class="col-sm-7 searchSec">
+              <div class="col-sm-12">
+                <div class="fright searchForm">
+                  <form action="#" method="get">
+                    <div class="input-group">
+                      <input
+                        type="hidden"
+                        name="search_param"
+                        value="all"
+                        id="search_param"
+                      />
+                      <input
+                        type="search"
+                        class="form-control"
+                        placeholder="Search Products"
+                      />
+
+                      <span class="input-group-btn searchIco">
+                        <button class="btn btn-default" type="submit">
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </span>
+                    </div>
+                    <!-- /input-group -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-default m0 navbar-static-top">
+        <div class="container-fluid container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#mainNav"
+            >
+              <i class="fas fa-bars"></i> MENU
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="product.html">Products</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!--Header-->
+
+    <section id="breadcrumbRow" class="row">
+      <h2>product page</h2>
+      <div
+        style="margin-top: 15px; margin-left: 10px; width: 50%"
+        class="fleft row m0 tags"
+      >
+        <ul id="AllCategory" class="nav tagsNav"></ul>
+        <ul class="nav tagsNav">
+          <li>
+            <a onclick="window.location.reload()"
+              ><i class="fas fa-retweet"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="row pageTitle m0">
+        <div class="container">
+          <h4 class="fleft">product page</h4>
+
+          <ul class="breadcrumb fright">
+            <li><a href="index.html">home</a></li>
+            <li class="active">product page</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="row contentRowPad greybg">
+      <div class="container">
+        <div id="allCategoryProducts" class="row"></div>
+      </div>
+    </section>
+
+    <footer class="row">
+      <div class="row m0 topFooter">
+        <div class="container line1">
+          <div class="row footFeatures">
+            <div class="col-sm-4 footFeature">
+              <div class="media">
+                <div class="media-left icon">
+                  <img src="images/icons/car3.png" alt="" />
+                </div>
+                <div class="media-body texts">
+                  <h4>care like</h4>
+                  <h2>Home</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 footFeature">
+              <div class="media m0">
+                <div class="media-left icon">
+                  <img src="images/icons/tel24-7_2.png" alt="" />
+                </div>
+                <div class="media-body texts">
+                  <h4>24 hours helpline</h4>
+                  <h2>123 456 789</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 footFeature">
+              <div class="media m0">
+                <div class="media-left icon">
+                  <img src="images/icons/shopping-bag2.png" alt="" />
+                </div>
+                <div class="media-body texts">
+                  <h4>see our</h4>
+                  <h2>latest offers</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container line2">
+          <div class="row">
+            <div class="col-sm-4 widget">
+              <div class="row m0">
+                <h4>About Dshine</h4>
+                <p>
+                  We provide the best Quality of products to you.We are always
+                  here to help our lovely customers.
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-google-plus"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4 widget">
+              <div class="row m0">
+                <h4>information</h4>
+                <ul class="nav">
+                  <li><a href="about.html">About Us</a></li>
+
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Top Brands</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4 widget">
+              <div class="row m0">
+                <h4>top brands</h4>
+                <ul class="nav">
+                  <li><a href="#">Fusce iaculis</a></li>
+                  <li><a href="#">Nisl dapibus</a></li>
+                  <li><a href="#">Vulputate sapien</a></li>
+                  <li><a href="#">Aliquet</a></li>
+                  <li><a href="#">Risus feugiat</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row m0 copyRight">
+        <div class="container">
+          <div class="row">
+            <div class="fleft">
+              &copy; <span id="year"></span> <a href="index.html">Dshine</a> All
+              Rights Reserved.
+            </div>
+            <ul class="nav nav-pills fright">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="blog.html">blog</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--jQuery, Bootstrap and other vendor JS-->
+
+    <!-- Fetch All Products -->
+    <script src="js/fetchProducts.js"></script>
+
+    <!--jQuery-->
+    <script src="js/jquery-2.1.3.min.js"></script>
+
+    <!--Google Maps-->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Owl Carousel-->
+    <script src="vendors/owl.carousel/js/owl.carousel.min.js"></script>
+
+    <!--Isotope-->
+    <script src="vendors/isotope/isotope-custom.js"></script>
+
+    <!--FlexSlider-->
+    <script src="vendors/flexslider/jquery.flexslider-min.js"></script>
+
+    <!--D-shine JS-->
+    <script src="js/d-shine.js"></script>
+  </body>
+</html>
