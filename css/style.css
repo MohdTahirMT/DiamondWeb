@@ -3097,7 +3097,7 @@ button:hover {
 .product2 .thumbnail {
   padding: 10px;
   border-radius: 0;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 .product2 .thumbnail .imgHov {
@@ -3329,7 +3329,7 @@ button:hover {
 }
 
 #featureCat2 .category2 {
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 #featureCat2 .category2 .imgHov {
@@ -6558,8 +6558,8 @@ abbr[title] {
 
 .d-carousel-cener .active.center .dc-inner .dc-containt {
   opacity: 1;
-  position: relative;
-  z-index: 1;
+  /* position: relative; */
+  /* z-index: 1; */
   color: #333;
 }
 .d-carousel-cener .active.center .dc-inner .dc-containt h2 {
@@ -6952,6 +6952,19 @@ body.home-2 footer .copyRight {
 .greybg {
   background-color: #f7f7f7;
 }
+
+#waIcon {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border: 0;
+  opacity: 1;
+}
+
 #back-to-top {
   position: fixed;
   bottom: 40px;

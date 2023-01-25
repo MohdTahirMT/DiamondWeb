@@ -15,6 +15,11 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <!--Bootstrap and Other Vendors-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="css/fontawesome-all.min.css" />
@@ -47,6 +52,14 @@
   </head>
   <body>
     <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    <a
+      href="https://wa.me/919712372394"
+      id="waIcon"
+      style="display: flex; flex-direction: row; align-items: center"
+    >
+      <img src="/images/whatsapp.png" alt="whatsapp" />
+      <h5 style="font-weight: bold">Send Enquiry</h5>
+    </a>
     <header class="row" id="header">
       <div class="row m0 logo_line">
         <div class="container">
@@ -177,7 +190,7 @@
       </div>
       <div class="d-carousel-cener owl-carousel">
         <div class="dc-inner">
-          <a href="single-product.html">
+          <a href="product.html">
             <img alt="ring" src="images/carousel/1.jpg" />
             <div class="dc-containt">
               <h2>Cushion</h2>
@@ -186,7 +199,7 @@
           </a>
         </div>
         <div class="dc-inner">
-          <a href="single-product.html">
+          <a href="product.html">
             <img alt="ring" src="images/carousel/2.jpg" />
             <div class="dc-containt">
               <h2>Round</h2>
@@ -195,7 +208,7 @@
           </a>
         </div>
         <div class="dc-inner">
-          <a href="single-product.html">
+          <a href="product.html">
             <img alt="ring" src="images/carousel/3.jpg" />
             <div class="dc-containt">
               <h2>Pear</h2>
@@ -204,7 +217,7 @@
           </a>
         </div>
         <div class="dc-inner">
-          <a href="single-product.html">
+          <a href="product.html">
             <img alt="ring" src="images/carousel/4.jpg" />
             <div class="dc-containt">
               <h2>Radiant</h2>
@@ -213,7 +226,7 @@
           </a>
         </div>
         <div class="dc-inner">
-          <a href="single-product.html">
+          <a href="product.html">
             <img alt="ring" src="images/carousel/5.jpg" />
             <div class="dc-containt">
               <h2>Ovel</h2>
@@ -226,15 +239,13 @@
     <section id="ring_sec" class="ring_sec">
       <div id="trigger" class="container">
         <div class="row">
-          <div class="col-md-6 diamond_j_cont">
-            <div class="diamond_j">
-              <img alt="" class="img-responsive" src="images/about2.png" />
-            </div>
+          <div class="col-md-6 diamond_j_cont wow fadeInRight">
+            <div class="diamond_j"></div>
             <div class="diamond_b">
               <img alt="" class="img-responsive" src="images/about.jpg" />
             </div>
           </div>
-          <div class="col-md-6 ring_cont">
+          <div class="col-md-6 ring_cont wow fadeInLeft">
             <h2>About D-shine</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -297,13 +308,13 @@
         </ul>
       </div>
     </section> -->
-    <section id="featureProducts" class="row contentRowPad">
+    <section id="featureProducts" class="row contentRowPad wow fadeInUp">
       <div class="container">
         <div class="row sectionTitle">
           <h3>featured products</h3>
           <h5>know more about our latest collection</h5>
         </div>
-        <div id="FeaturedP" class="row">
+        <div id="FeaturedP" class="row wow fadeInUp">
           <!-- <div class="col-sm-3 product">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
@@ -400,7 +411,7 @@
       </div>
     </section>
     <!--Feature Products 4 Collumn-->
-    <section id="featureCategory" class="row contentRowPad">
+    <section id="featureCategory" class="row contentRowPad wow fadeInUp">
       <div class="container">
         <div class="row m0 sectionTitle">
           <h3>our featured categories</h3>
@@ -491,14 +502,14 @@
       </div>
     </section>
     <!--Feature Categories-->
-    <section id="D-Shine" class="row contentRowPad">
+    <section id="D-Shine" class="row contentRowPad wow fadeInUp">
       <div class="container">
         <div class="row sectionTitle">
           <h3>this is D-shine</h3>
           <h5>shop over our best brands</h5>
         </div>
         <div class="row">
-          <div class="col-sm-4 product">
+          <div class="col-sm-4 product wow fadeInUp">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
                 <img src="images/bestBrand/bb1.jpg" alt="" />
@@ -517,11 +528,11 @@
                 </div>
               </div>
               <div class="row m0 proName">
-                <a href="single-product.html">Maximus quam posuerea</a>
+                <a href="product.html">Maximus quam posuerea</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 product">
+          <div class="col-sm-4 product wow fadeInUp">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
                 <img src="images/bestBrand/bb2.jpg" alt="" />
@@ -540,11 +551,11 @@
                 </div>
               </div>
               <div class="row m0 proName">
-                <a href="single-product.html">Gravida est</a>
+                <a href="product.html">Gravida est</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 product">
+          <div class="col-sm-4 product wow fadeInUp">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
                 <img src="images/bestBrand/bb3.jpg" alt="" />
@@ -563,11 +574,11 @@
                 </div>
               </div>
               <div class="row m0 proName">
-                <a href="single-product.html">Donec aliquam</a>
+                <a href="product.html">Donec aliquam</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 product">
+          <div class="col-sm-4 product wow fadeInUp">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
                 <img src="images/bestBrand/bb4.jpg" alt="" />
@@ -586,11 +597,11 @@
                 </div>
               </div>
               <div class="row m0 proName">
-                <a href="single-product.html">Curabitur cursus dignis</a>
+                <a href="product.html">Curabitur cursus dignis</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 product">
+          <div class="col-sm-4 product wow fadeInUp">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
                 <img src="images/bestBrand/bb5.jpg" alt="" />
@@ -609,11 +620,11 @@
                 </div>
               </div>
               <div class="row m0 proName">
-                <a href="single-product.html">Curabitur cursus dignis</a>
+                <a href="product.html">Curabitur cursus dignis</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 product">
+          <div class="col-sm-4 product wow fadeInUp">
             <div class="productInner row m0">
               <div class="row m0 imgHov">
                 <img src="images/bestBrand/bb6.jpg" alt="" />
@@ -632,7 +643,7 @@
                 </div>
               </div>
               <div class="row m0 proName">
-                <a href="single-product.html">Curabitur cursus dignis</a>
+                <a href="product.html">Curabitur cursus dignis</a>
               </div>
             </div>
           </div>
@@ -640,7 +651,7 @@
       </div>
     </section>
     <!--Feature Products 4 Collumn-->
-    <section id="testimonialTabs" class="row contentRowPad">
+    <section id="testimonialTabs" class="row contentRowPad wow fadeInUp">
       <div class="container">
         <div class="row sectionTitle">
           <h3>some words from our customers</h3>
@@ -751,7 +762,7 @@
       </div>
     </section>
     <!--Testimonial Tabs-->
-    <section id="brands" class="row contentRowPad">
+    <section id="brands" class="row contentRowPad wow fadeInUp">
       <div class="container">
         <div class="row sectionTitle">
           <h3>our brands</h3>
@@ -781,7 +792,7 @@
         </div>
       </div>
     </section>
-    <section id="returnslog">
+    <section id="returnslog" class="wow fadeInUp">
       <div class="container blog_j">
         <div class="row sectionTitle">
           <h3>Blog Updates</h3>
@@ -870,13 +881,76 @@
             </div>
             <div class="col-sm-4 widget">
               <div class="row m0">
-                <h4>top brands</h4>
-                <ul class="nav">
-                  <li><a href="#">Fusce iaculis</a></li>
-                  <li><a href="#">Nisl dapibus</a></li>
-                  <li><a href="#">Vulputate sapien</a></li>
-                  <li><a href="#">Aliquet</a></li>
-                  <li><a href="#">Risus feugiat</a></li>
+                <h4>instagram gallery</h4>
+                <ul class="row slides mb30">
+                  <li class="col-md-4">
+                    <a href="http://" target="_blank">
+                      <img
+                        class="img-thumbnail"
+                        src="images/product/single/1s.jpg"
+                        alt=""
+                        width="80"
+                        height="80"
+                      />
+                    </a>
+                  </li>
+                  <li class="col-md-4">
+                    <a href="http://" target="_blank">
+                      <img
+                        class="img-thumbnail"
+                        src="images/product/single/1s.jpg"
+                        alt=""
+                        width="80"
+                        height="80"
+                      />
+                    </a>
+                  </li>
+                  <li class="col-md-4">
+                    <a href="http://" target="_blank">
+                      <img
+                        class="img-thumbnail"
+                        src="images/product/single/1s.jpg"
+                        alt=""
+                        width="80"
+                        height="80"
+                      />
+                    </a>
+                  </li>
+                </ul>
+                <ul class="row slides">
+                  <li class="col-md-4">
+                    <a href="http://" target="_blank">
+                      <img
+                        class="img-thumbnail"
+                        src="images/product/single/1s.jpg"
+                        alt=""
+                        width="80"
+                        height="80"
+                      />
+                    </a>
+                  </li>
+                  <li class="col-md-4">
+                    <a href="http://" target="_blank">
+                      <img
+                        class="img-thumbnail"
+                        src="images/product/single/1s.jpg"
+                        alt=""
+                        width="80"
+                        height="80"
+                      />
+                    </a>
+                  </li>
+                  <li class="col-md-4">
+                    <a href="http://" target="_blank">
+                      <img
+                        class="img-thumbnail"
+                        src="images/product/single/1s.jpg"
+                        alt=""
+                        width="80"
+                        height="80"
+                      />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -901,6 +975,12 @@
       </div>
     </footer>
     <!--jQuery, Bootstrap and other vendor JS-->
+
+    <!-- Animations -->
+    <script src="js/plugins.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
     <!-- External JS -->
     <script src="js/fetchCategory.js"></script>

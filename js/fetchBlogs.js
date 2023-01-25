@@ -27,7 +27,7 @@ const getAllBlogsF = (data) => {
     const blogDate = date.getDate();
 
     AllBlogs += `
-    <div class="blog col-sm-12 col-md-6 col-lg-4 m0">
+    <div class="blog col-sm-12 col-md-6 col-lg-4 m0 wow fadeInUp">
         <div class="row m0 titleRow">
             <div class="fleft date">${blogDate}<span>${blogMonth}</span></div>
             <div class="fleft titlePart">

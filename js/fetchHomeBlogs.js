@@ -54,7 +54,7 @@ const getAllHBF = (data) => {
 };
 
 const getBlogById = (idHB) => {
-    console.log(idHB);
+  console.log(idHB);
   localStorage.setItem("idHB", idHB);
   window.location.href = "single-post.html";
 };
