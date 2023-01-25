@@ -6768,7 +6768,7 @@ abbr[title] {
 }
 
 .diamond_j {
-  background-image: url(../images/Diamond_Sprite.png);
+  background-color: transparent;
   width: 180px;
   height: 150px;
   background-size: 100%;
