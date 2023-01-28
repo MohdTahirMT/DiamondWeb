@@ -42,6 +42,11 @@ Base Fonts(Content)  2 : Questrial
 /*1 Prefix Styles*/
 /*--------------------------------------------------*/
 
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Allura);
+
 .m0 {
   margin: 0;
 }
@@ -58,18 +63,34 @@ Base Fonts(Content)  2 : Questrial
   margin-bottom: 30px;
 }
 
+.pb15 {
+  margin-bottom: 15px;
+}
+
+.pb30 {
+  margin-bottom: 30px;
+}
+
+button,
+input,
+.com_btn,
+.br50p {
+  border-radius: 50px !important;
+}
+
 body {
   position: relative;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #000 !important;
 }
 
 * {
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 p {
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   letter-spacing: 1px;
   font-size: 15px;
 }
@@ -179,7 +200,7 @@ button:hover {
   line-height: 1;
   text-transform: capitalize;
   color: #5f5e5e;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 .navbar-toggle {
   padding: 9px 15px;
@@ -208,313 +229,6 @@ button:hover {
   padding-right: 15px;
 }
 
-#header .logo_line {
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-#header .logo_line .logo .logo_a {
-  display: inline-block;
-}
-
-#header .logo_line .searchSec .searchForm {
-  width: calc(100% - 215px);
-  padding-top: 0;
-}
-
-#header .logo_line .searchSec .searchForm .input-group {
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-
-#header .logo_line .searchSec .searchForm .input-group .form-control {
-  border: none;
-  box-shadow: none;
-  height: 37px;
-  line-height: 35px;
-  padding: 0 10px;
-  border-bottom: 1px solid #cacaca;
-  font-family: "PT Sans";
-}
-
-#header .logo_line .searchSec .searchForm .input-group .form-control:focus {
-  border-color: #fd405e;
-}
-
-#header .logo_line .searchSec .searchForm .input-group button.dropdown-toggle {
-  border: 0;
-  border-radius: 0;
-  background: none;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 35px;
-  color: #505050;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 600;
-  padding: 0;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  button.dropdown-toggle
-  i {
-  margin: 0 8px 0 5px;
-  font-size: 18px;
-  color: #b7b7b7;
-}
-
-#header .logo_line .searchSec .searchForm .input-group .dropdown-menu {
-  z-index: 10000;
-  border-radius: 0;
-  padding: 0;
-  right: -35px;
-  margin-top: 0;
-}
-
-#header .logo_line .searchSec .searchForm .input-group .dropdown-menu li a {
-  padding: 0 15px;
-  line-height: 30px;
-  text-transform: capitalize;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  .dropdown-menu
-  li
-  a:hover,
-#header
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  .dropdown-menu
-  li
-  a:focus {
-  background: none;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  .dropdown-menu
-  li
-  + li
-  a {
-  border-top: 1px solid rgba(220, 220, 220, 0.5);
-}
-
-#header .logo_line .searchSec .searchForm .input-group .searchIco {
-  background: transparent;
-  color: #fd405e;
-}
-
-#header .logo_line .searchSec .searchForm .input-group .searchIco button {
-  border: none;
-  background: none;
-  text-shadow: none;
-  color: #fd405e;
-  font-size: 16px;
-  line-height: 35px;
-  width: 35px;
-  padding: 0;
-  text-align: center;
-}
-
-#header .logo_line .logoSearch {
-  display: flex;
-  align-items: center;
-}
-
-#header .logo_line .searchSec .wishlistCompare {
-  width: 100%;
-  padding: 0 15px;
-  text-align: right;
-}
-
-#header .logo_line .searchSec .wishlistCompare .nav li a {
-  padding: 0;
-  color: #505050;
-  font-size: 14px;
-  font-family: "Questrial", sans-serif;
-}
-
-#header .logo_line .searchSec .wishlistCompare .nav li a:hover,
-#header .logo_line .searchSec .wishlistCompare .nav li a:focus {
-  background: none;
-}
-
-#header .logo_line .searchSec .cartCount {
-  text-align: center;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner {
-  width: 100%;
-  height: 100%;
-}
-
-#header .logo_line .searchSec,
-#header .logo_line .searchSec > div {
-  padding-right: 0;
-}
-
-#header .logo_line .searchSec .wishlistCompare .nav li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 20px;
-}
-
-#header .logo_line .searchSec .wishlistCompare .nav li.h_cart {
-  position: relative;
-}
-
-.h_cart::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 35px;
-  height: 100%;
-}
-
-#header .logo_line .searchSec .wishlistCompare .nav li.h_cart .hclist {
-  position: absolute;
-  right: 0;
-  width: 391px;
-  text-align: left;
-  z-index: 99999;
-  opacity: 0;
-  vertical-align: middle;
-  transition: all 0.3s ease-in;
-  border-top: 10px solid transparent;
-}
-
-#header .logo_line .searchSec .wishlistCompare .nav li.h_cart:hover .hclist {
-  opacity: 1;
-  transition: all 0.3s ease-in;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .table-responsive {
-  height: 0;
-  padding: 0;
-  background: #fff;
-  box-shadow: 0 3px 17px -3px rgba(0, 0, 0, 0.3);
-}
-
-#header
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .table-responsive
-  table {
-  margin-bottom: 0;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart:hover
-  .table-responsive {
-  height: auto;
-  padding: 10px;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .hclist
-  .table-responsive {
-  vertical-align: middle;
-}
-
-#header
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .hclist
-  .table-responsive
-  * {
-  vertical-align: middle;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner a {
-  color: #505050;
-  font-size: 14px;
-  font-family: "Questrial", sans-serif;
-  padding: 0;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner a span {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner .badge,
-#header .logo_line .searchSec .wishlistCompare .nav li a .wish {
-  padding: 0;
-  text-align: center;
-  font-weight: lighter;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  display: inline-block;
-  position: relative;
-  line-height: 18px;
-  text-align: center;
-  cursor: pointer;
-  color: #6b6b6b;
-  width: 36px;
-  background: transparent;
-  background-size: 100% 100%;
-  line-height: 21px;
-  vertical-align: middle;
-  font-weight: bold;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner .badge i,
-#header .logo_line .searchSec .wishlistCompare .nav li > a > span > i {
-  color: #dcdcdc;
-  font-size: 1.6em;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner:hover .badge i,
-#header .logo_line .searchSec .wishlistCompare .nav li a:hover i {
-  color: #fd405e;
-  transition: all 0.3s ease-in;
-}
-
-#header .logo_line .searchSec .cartCount .cartCountInner:hover .badge,
-#header .logo_line .searchSec .wishlistCompare .nav li a:hover .wish {
-  color: #fff;
-}
-
 #header .navbar {
   background: #f0f0f0;
   border: none;
@@ -525,7 +239,8 @@ button:hover {
   width: 100%;
   height: 50px;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 18px;
   text-transform: uppercase;
   background: transparent;
@@ -561,7 +276,7 @@ button:hover {
   padding: 0 28px;
   line-height: 52px;
   color: #222;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #header .navbar #mainNav .nav li a:hover {
@@ -606,7 +321,8 @@ button:hover {
 #header .navbar #mainNav .nav li.open .dropdown-menu li a {
   line-height: 43px;
   border-bottom: 1px solid #f3f3f3;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   font-weight: 600;
   background-color: transparent;
@@ -640,7 +356,8 @@ button:hover {
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .listTitle {
   margin: 0;
   line-height: 45px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
 }
 
@@ -657,7 +374,8 @@ button:hover {
   color: #fd405e;
   float: right;
   display: inline;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
 }
 
@@ -750,7 +468,7 @@ button:hover {
   line-height: 30px;
   border: none;
   padding-left: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #header
@@ -935,7 +653,8 @@ button:hover {
   a
   .row {
   border: none;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   color: #222;
 }
@@ -1028,7 +747,8 @@ button:hover {
   left: 300%;
   white-space: nowrap;
   display: block;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   color: #fff;
   padding: 0 15px;
@@ -1157,10 +877,17 @@ button:hover {
   border-left: 2px solid #cccac0;
 }
 
-#header .navbar #mainNav .nav.navbar-nav {
+/* #header .navbar #mainNav .nav.navbar-nav {
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.navbarSB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
 #header .navbar #mainNav .nav.navbar-nav > li.offers_navbtn a {
@@ -1234,7 +961,8 @@ button:hover {
   line-height: 87px;
   padding: 0 15px;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 400;
   color: #222;
 }
@@ -1272,7 +1000,8 @@ button:hover {
 #header2 .menu .navbar #mainNav2 ul li.open ul li a {
   line-height: 43px;
   border-bottom: 1px solid #f3f3f3;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   font-weight: 600;
   background-color: #fff;
@@ -1286,19 +1015,6 @@ button:hover {
   color: #fd405e;
 }
 
-#header2 .logo {
-  padding: 6px 0 30px;
-}
-
-#header2 .logo a {
-  display: block;
-  line-height: 58px;
-}
-
-#header2 .logo a img {
-  max-width: 100%;
-}
-
 #header2 .menu2 {
   padding: 35px 0 0;
 }
@@ -1310,7 +1026,8 @@ button:hover {
 #header2 .menu2 ul li a {
   line-height: 14px;
   padding: 0 15px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #454545;
   text-transform: uppercase;
 }
@@ -1345,7 +1062,8 @@ button:hover {
   padding: 0;
   text-align: center;
   font-weight: lighter;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 11px;
   display: inline-block;
   position: relative;
@@ -1372,7 +1090,8 @@ button:hover {
   border: none;
   background: rgba(0, 0, 0, 0.65);
   font-size: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 100;
 }
 
@@ -1397,11 +1116,6 @@ button:hover {
   font-size: 50px;
 }
 
-#header3 .logo_line .searchSec,
-#header3 .logo_line .searchSec > div {
-  padding-right: 0;
-}
-
 #header3 {
   position: absolute;
   left: 0;
@@ -1419,7 +1133,7 @@ button:hover {
   line-height: 1;
   text-transform: capitalize;
   color: #5f5e5e;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #header3 .top_menus .nav li a:hover {
@@ -1439,308 +1153,6 @@ button:hover {
   padding-right: 15px;
 }
 
-#header3 .logo_line {
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-#header3 .logo_line .logo .logo_a {
-  display: inline-block;
-}
-
-#header3 .logo_line .searchSec .searchForm {
-  width: calc(100% - 215px);
-  padding-top: 0;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group {
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group .form-control {
-  border: none;
-  box-shadow: none;
-  height: 37px;
-  line-height: 35px;
-  padding: 0 10px;
-  border-bottom: 1px solid #cacaca;
-  font-family: "PT Sans";
-  background: transparent;
-  color: #fff;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group .form-control:focus {
-  border-color: #fd405e;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group button.dropdown-toggle {
-  border: 0;
-  border-radius: 0;
-  background: none;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 35px;
-  color: #505050;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 600;
-  padding: 0;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  button.dropdown-toggle
-  i {
-  margin: 0 8px 0 5px;
-  font-size: 18px;
-  color: #b7b7b7;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group .dropdown-menu {
-  z-index: 10000;
-  border-radius: 0;
-  padding: 0;
-  right: -35px;
-  margin-top: 0;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group .dropdown-menu li a {
-  padding: 0 15px;
-  line-height: 30px;
-  text-transform: capitalize;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  .dropdown-menu
-  li
-  a:hover,
-#header3
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  .dropdown-menu
-  li
-  a:focus {
-  background: none;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .searchForm
-  .input-group
-  .dropdown-menu
-  li
-  + li
-  a {
-  border-top: 1px solid rgba(220, 220, 220, 0.5);
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group .searchIco {
-  background: transparent;
-  color: #fd405e;
-}
-
-#header3 .logo_line .searchSec .searchForm .input-group .searchIco button {
-  border: none;
-  background: none;
-  text-shadow: none;
-  color: #fd405e;
-  font-size: 16px;
-  line-height: 35px;
-  width: 35px;
-  padding: 0;
-  text-align: center;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare {
-  width: 100%;
-  padding: 0 15px;
-  text-align: right;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare .nav li a {
-  padding: 0;
-  color: #fff;
-  font-size: 14px;
-  font-family: "Questrial", sans-serif;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare .nav li a:hover,
-#header3 .logo_line .searchSec .wishlistCompare .nav li a:focus {
-  background: none;
-}
-
-#header3 .logo_line .searchSec .cartCount {
-  text-align: center;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner {
-  width: 100%;
-  height: 100%;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare .nav li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 20px;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare .nav li.h_cart {
-  position: relative;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare .nav li.h_cart .hclist {
-  position: absolute;
-  right: 0;
-  width: 391px;
-  text-align: left;
-  z-index: 99999;
-  opacity: 0;
-  vertical-align: middle;
-  transition: all 0.3s ease-in;
-  border-top: 10px solid transparent;
-}
-
-#header3 .logo_line .searchSec .wishlistCompare .nav li.h_cart:hover .hclist {
-  opacity: 1;
-  transition: all 0.3s ease-in;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .table-responsive {
-  height: 0;
-  padding: 0;
-  background: #fff;
-  box-shadow: 0 3px 17px -3px rgba(0, 0, 0, 0.3);
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .table-responsive
-  table {
-  margin-bottom: 0;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart:hover
-  .table-responsive {
-  height: auto;
-  padding: 10px;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .hclist
-  .table-responsive {
-  vertical-align: middle;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .hclist
-  .table-responsive
-  a {
-  color: #333;
-}
-
-#header3
-  .logo_line
-  .searchSec
-  .wishlistCompare
-  .nav
-  li.h_cart
-  .hclist
-  .table-responsive
-  * {
-  vertical-align: middle;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner a {
-  color: #505050;
-  font-size: 14px;
-  font-family: "Questrial", sans-serif;
-  padding: 0;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner a span {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner .badge,
-#header3 .logo_line .searchSec .wishlistCompare .nav li a .wish {
-  padding: 0;
-  text-align: center;
-  font-weight: lighter;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  display: inline-block;
-  position: relative;
-  line-height: 18px;
-  text-align: center;
-  cursor: pointer;
-  color: #000;
-  width: 36px;
-  background: transparent;
-  background-size: 100% 100%;
-  line-height: 21px;
-  vertical-align: middle;
-  font-weight: bold;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner .badge i,
-#header3 .logo_line .searchSec .wishlistCompare .nav li > a > span > i {
-  color: #fff;
-  font-size: 1.6em;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner:hover .badge i,
-#header3 .logo_line .searchSec .wishlistCompare .nav li a:hover i {
-  color: #fd405e;
-  transition: all 0.3s ease-in;
-}
-
-#header3 .logo_line .searchSec .cartCount .cartCountInner:hover .badge,
-#header3 .logo_line .searchSec .wishlistCompare .nav li a:hover .wish {
-  color: #fff;
-}
-
 #header3 .navbar {
   background: transparent;
   border: none;
@@ -1752,7 +1164,8 @@ button:hover {
   width: 100%;
   height: 50px;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 18px;
   text-transform: uppercase;
   background: #222;
@@ -1779,7 +1192,8 @@ button:hover {
   padding: 0 28px;
   line-height: 52px;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   position: relative;
 }
 
@@ -1833,7 +1247,8 @@ button:hover {
 #header3 .navbar #mainNav .nav li.open .dropdown-menu li a {
   line-height: 43px;
   border-bottom: 1px solid #f3f3f3;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   font-weight: 600;
   background-color: transparent;
@@ -1874,7 +1289,8 @@ button:hover {
 #header3 .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .listTitle {
   margin: 0;
   line-height: 45px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
 }
 
@@ -1891,7 +1307,8 @@ button:hover {
   color: #fd405e;
   float: right;
   display: inline;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
 }
 
@@ -1984,7 +1401,7 @@ button:hover {
   line-height: 30px;
   border: none;
   padding-left: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #header3
@@ -2169,7 +1586,8 @@ button:hover {
   a
   .row {
   border: none;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   color: #222;
 }
@@ -2262,7 +1680,8 @@ button:hover {
   left: 300%;
   white-space: nowrap;
   display: block;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   color: #fff;
   padding: 0 15px;
@@ -2391,28 +1810,6 @@ button:hover {
   border-left: 2px solid #cccac0;
 }
 
-#header3 .logo_line .logo .logo_a img {
-  height: 81px;
-}
-
-#header3 .logo_line .logo .logo_a span {
-  color: #fff;
-  font-size: 24px;
-  vertical-align: middle;
-  margin-left: 7px;
-  margin-top: 0;
-  display: inline-block;
-  text-transform: uppercase;
-  font-family: "PT Sans";
-  font-size: 30px;
-  font-weight: 700;
-}
-
-#header3 .logo_line .logo .logo_a i {
-  font-size: 3em;
-  color: #fff;
-  vertical-align: middle;
-}
 /* end header 3*/
 /*---------------------------------------*/
 /*END HEADER*/
@@ -2450,14 +1847,16 @@ button:hover {
 }
 
 #shopFeatures .coreFeature .coreFeatureInner h5 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   text-transform: uppercase;
   color: #222;
   line-height: 24px;
 }
 
 #shopFeatures .coreFeature .coreFeatureInner p {
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #626262;
   line-height: 20px;
 }
@@ -2494,7 +1893,8 @@ button:hover {
 
 #homeBanners .homeBanner .bannerTextArea .bannerTextAreaInner h4 {
   font-size: 20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
 }
 
@@ -2508,7 +1908,7 @@ button:hover {
 }
 
 #homeBanners .homeBanner .bannerTextArea .bannerTextAreaInner h5 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #homeBanners2 .newArrivals {
@@ -2542,7 +1942,8 @@ button:hover {
 }
 
 #homeBanners2 .newArrivals .newArrivalsBox .newArrivalsBoxInner a {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
   color: #222;
 }
@@ -2630,7 +2031,8 @@ button:hover {
 #homeBanners2 .endYearSale .endYearSaleBox .endYearSaleBoxInner h5 {
   color: #fff;
   margin-top: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
 }
 
@@ -2677,7 +2079,8 @@ button:hover {
 }
 
 #homeBanners2 .factoryOutlet .factoryOutletBox .factoryOutletBoxInner a {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
   color: #222;
 }
@@ -2694,11 +2097,11 @@ button:hover {
 }
 
 .sectionTitle h3 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .sectionTitle h5 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .product {
@@ -2717,6 +2120,7 @@ button:hover {
 
 .product .productInner .imgHov img {
   width: 100%;
+  border-radius: 10px !important;
 }
 
 .product .productInner .imgHov .hovArea {
@@ -2768,7 +2172,8 @@ button:hover {
   line-height: 1;
   display: inline-block;
   font-size: 13px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
 }
 
@@ -2789,7 +2194,8 @@ button:hover {
 
 .product .productInner .imgHov .hovArea .proPrice {
   font-size: 24px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
   transition: all 300ms ease-in-out 0s;
   transition-delay: 400ms;
@@ -2800,7 +2206,8 @@ button:hover {
 }
 
 .product .productInner .proName a {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 55px;
   color: #222;
   font-weight: 700;
@@ -2809,7 +2216,8 @@ button:hover {
 
 .product .productInner .proBuyBtn .btn {
   color: #555;
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 12px;
   display: inline-block;
   line-height: 35px;
@@ -2934,7 +2342,8 @@ button:hover {
 }
 
 .singleProduct .starsRow {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
 }
 
@@ -2975,7 +2384,7 @@ button:hover {
   color: #777;
   padding: 0 15px;
   line-height: 28px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .singleProduct .wce {
@@ -3001,7 +2410,8 @@ button:hover {
 }
 
 .singleProduct .qtyAtc .quantity {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
   line-height: 42px;
   margin-right: 20px;
@@ -3074,13 +2484,15 @@ button:hover {
 .descList dl dt {
   text-align: left;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
   line-height: 26px;
 }
 
 .descList dl dd {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   line-height: 26px;
   margin-left: 0;
@@ -3107,6 +2519,7 @@ button:hover {
 
 .product2 .thumbnail .imgHov img {
   width: 100%;
+  border-radius: 10px !important;
 }
 
 .product2 .thumbnail .imgHov .hovArea {
@@ -3144,7 +2557,8 @@ button:hover {
 .product2 .thumbnail .imgHov .hovArea .getlike a {
   display: inline-block;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 45px;
 }
 
@@ -3180,7 +2594,8 @@ button:hover {
 .product2 .thumbnail .productIntro .proCat {
   line-height: 35px;
   margin: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 600;
   color: #222;
   text-transform: capitalize;
@@ -3251,10 +2666,12 @@ button:hover {
 
 .featureCats .item .imgHov img {
   width: 100%;
+  border-radius: 10px !important;
 }
 
 .featureCats .item .imgHov .hovArea {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   position: absolute;
   width: 100%;
   height: 100%;
@@ -3297,7 +2714,8 @@ button:hover {
 
 .featureCats .item a h4 {
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
   line-height: 40px;
 }
@@ -3496,7 +2914,8 @@ button:hover {
 }
 
 .testiTabContent .tab-pane h5 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   text-transform: uppercase;
 }
 
@@ -3518,12 +2937,13 @@ button:hover {
 
 .testiTabContent .tab-pane h5.customerType {
   margin-bottom: 20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .testiTabContent .tab-pane p {
   color: #777;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-bottom: 30px;
   line-height: 32px;
   position: relative;
@@ -3653,13 +3073,15 @@ button:hover {
 
 #slider .sliderCont .slides .text_lines h3 {
   font-size: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   text-transform: uppercase;
 }
 
 #slider .sliderCont .slides .text_lines h2 {
   font-size: 35px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   text-transform: uppercase;
   color: #fd405e;
 }
@@ -3740,7 +3162,8 @@ button:hover {
 
 #slider2 .sliderCont2 .slides .text_lines h3 {
   font-size: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   text-transform: uppercase;
   line-height: 80px;
   margin: 0;
@@ -3810,14 +3233,15 @@ button:hover {
 #ourTeam .thumbnail h4 {
   text-transform: uppercase;
   color: #686868;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
 }
 
 #ourTeam .thumbnail h5 {
   text-transform: capitalize;
   color: #3d3d3d;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #ourTeam .thumbnail ul {
@@ -3858,7 +3282,7 @@ footer .copyRight {
   padding: 19px 0;
   color: #fff;
   font-size: 12px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 footer .copyRight a {
@@ -3905,13 +3329,15 @@ footer .topFooter .footFeatures .footFeature .texts {
 
 footer .topFooter .footFeatures .footFeature .texts h4 {
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin: 0 0 10px;
 }
 
 footer .topFooter .footFeatures .footFeature .texts h2 {
   font-size: 32px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin: 0;
 }
 
@@ -3926,12 +3352,14 @@ footer .topFooter .widget {
 footer .topFooter .widget h4 {
   text-transform: uppercase;
   font-size: 15.2px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin: 0 0 25px;
 }
 
 footer .topFooter .widget p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin: 0 0 25px;
   line-height: 26px;
 }
@@ -3954,7 +3382,8 @@ footer .topFooter .widget ul.list-inline li a:focus {
 
 footer .topFooter .widget ul.nav li a {
   line-height: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #fff;
   padding: 0;
 }
@@ -3981,7 +3410,8 @@ footer .topFooter .widget .input-group .input-group-addon {
 
 footer .topFooter .widget .input-group input {
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 10px;
   color: #fff;
   background-color: transparent;
@@ -4006,7 +3436,8 @@ footer .topFooter .widget input[type="submit"].form-control {
   border-radius: 0;
   text-transform: uppercase;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   transition: all 300ms ease-in-out 0s;
 }
 
@@ -4058,7 +3489,8 @@ footer.footer2 .copyRight {
     transparent;
   background-size: cover;
   font-size: 42px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 198px;
   height: auto;
   text-align: center;
@@ -4073,7 +3505,8 @@ footer.footer2 .copyRight {
   background: url(../images/pageCover.png) no-repeat scroll center 0 transparent;
   background-size: cover;
   font-size: 42px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 198px;
   height: 198px;
   text-align: center;
@@ -4089,7 +3522,8 @@ footer.footer2 .copyRight {
 }
 
 #breadcrumbRow .pageTitle h4 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 50px;
   margin: 0;
   display: none;
@@ -4103,7 +3537,8 @@ footer.footer2 .copyRight {
 }
 
 #breadcrumbRow .pageTitle ul li {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
 }
 
@@ -4119,7 +3554,8 @@ footer.footer2 .copyRight {
 }
 
 #breadcrumbRow .pageTitle ul li a {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #fd405e;
 }
 
@@ -4157,7 +3593,8 @@ footer.footer2 .copyRight {
   background: #dcdcdc;
   color: #fff;
   font-size: 24px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 40px;
   padding: 0 35px;
   min-width: 125px;
@@ -4172,7 +3609,8 @@ footer.footer2 .copyRight {
 }
 
 #whatWeDid .tab-contents .tab-content .tab-pane h3 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   text-transform: uppercase;
   color: #222;
   margin: 35px 0 30px;
@@ -4180,13 +3618,15 @@ footer.footer2 .copyRight {
 
 #whatWeDid .tab-contents .tab-content .tab-pane p {
   margin-bottom: 20px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   line-height: 24px;
 }
 
 #hww h3 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #000;
   text-align: center;
   text-transform: uppercase;
@@ -4195,7 +3635,8 @@ footer.footer2 .copyRight {
 
 #hww .col-sm-4 h5 {
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -4207,7 +3648,8 @@ footer.footer2 .copyRight {
 }
 
 #hww .col-sm-4 p {
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 24px;
   color: #777;
   font-size: 15px;
@@ -4216,14 +3658,16 @@ footer.footer2 .copyRight {
 #ourGreatServices .col-sm-4 .middleBox h4 {
   margin-top: 40px;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #fd405e;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
 #ourGreatServices .col-sm-4 .middleBox p {
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   line-height: 24px;
   margin-bottom: 25px;
@@ -4231,7 +3675,8 @@ footer.footer2 .copyRight {
 
 #ourGreatServices .col-sm-4 .middleBox a {
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #fd405e;
   line-height: 1;
 }
@@ -4272,7 +3717,8 @@ footer.footer2 .copyRight {
   line-height: 50px;
   background: #fd405e;
   display: inline-block;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 18px;
   color: #fff;
   position: absolute;
@@ -4291,7 +3737,8 @@ footer.footer2 .copyRight {
 
 #bringIdeas h3 {
   color: #222;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   margin-bottom: 50px;
   text-transform: uppercase;
@@ -4308,7 +3755,8 @@ footer.footer2 .copyRight {
 
 #contactBanner .container .row h3 {
   font-size: 25px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #fff;
   font-weight: 700;
   margin-top: 0;
@@ -4318,7 +3766,8 @@ footer.footer2 .copyRight {
 #contactBanner .container .row h5 {
   font-weight: 700;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   margin-bottom: 0;
 }
@@ -4326,7 +3775,8 @@ footer.footer2 .copyRight {
 #contactBanner .container .row a {
   padding: 0 23px;
   line-height: 40px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
@@ -4347,7 +3797,8 @@ footer.footer2 .copyRight {
   line-height: 60px;
   background: #333;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 26px;
   font-weight: 700;
   transition: all 300ms ease-in-out 0s;
@@ -4371,7 +3822,8 @@ footer.footer2 .copyRight {
 #pricing .pricing .features .pricePerMonth span {
   line-height: 70px;
   font-size: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #5a5b5e;
 }
 
@@ -4402,7 +3854,8 @@ footer.footer2 .copyRight {
   padding: 0 35px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
 }
 
@@ -4467,7 +3920,8 @@ footer.footer2 .copyRight {
 }
 
 .shortcodesRow h4.shortcodeHeading {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-bottom: 30px;
   margin-top: 0;
   line-height: 1;
@@ -4479,7 +3933,8 @@ footer.footer2 .copyRight {
 .shortcodesRow p {
   margin: 0;
   font-size: 14px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 24px;
   color: #777;
 }
@@ -4489,7 +3944,8 @@ footer.footer2 .copyRight {
 }
 
 .heading {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-bottom: 20px;
   margin-top: 0;
   line-height: 1;
@@ -4527,11 +3983,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .btn {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 15px;
   font-weight: 400;
   line-height: 40px;
@@ -4613,7 +4070,8 @@ h6 {
   margin-right: 15px;
   margin-top: 5px;
   font-size: 40px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   border: 2px solid #fd405e;
   color: #222;
 }
@@ -4643,7 +4101,8 @@ span[data-toggle="tooltip"] {
 .tooltip .tooltip-inner {
   border-radius: 0;
   background: #fd405e;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #fff;
   padding: 5px 35px;
   line-height: 20px;
@@ -4687,7 +4146,8 @@ abbr[title] {
   border: 1px solid #dcdcdc;
   margin: 0;
   text-transform: capitalize;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #454545;
   padding: 0 15px;
   line-height: 40px;
@@ -4761,7 +4221,8 @@ abbr[title] {
 
 .shortcodeTabContent .tab-pane .reviewForm .ratingStars {
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 40px;
 }
 
@@ -4781,7 +4242,8 @@ abbr[title] {
 .shortcodeTabContent .tab-pane .additionInfoRow {
   line-height: 40px;
   font-size: 15px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   letter-spacing: 0.5px;
   color: #777;
 }
@@ -4805,7 +4267,8 @@ abbr[title] {
 }
 
 #accordion .panel .panel-heading h4 a.not_collapsed {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 18px;
   color: #777;
   padding: 0 20px;
@@ -4836,7 +4299,8 @@ abbr[title] {
 }
 
 #accordion .panel .panel-collapse .panel-body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   line-height: 24px;
 }
@@ -4902,7 +4366,8 @@ abbr[title] {
 }
 
 .custom_progress .progress-bar .tooltip .tooltip-inner {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 12px;
   line-height: 20px;
   padding: 0 20px;
@@ -4915,7 +4380,8 @@ abbr[title] {
   border-radius: 0;
   border: 1px solid #dcdcdc;
   color: #aaa;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-bottom: 0;
 }
 
@@ -5062,7 +4528,8 @@ abbr[title] {
 
 .testimonialStyle3 .clientName {
   color: #222;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 24px;
   text-transform: uppercase;
 }
@@ -5103,7 +4570,8 @@ abbr[title] {
 
 .testimonialStyle4 .clientName {
   color: #fd405e;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 24px;
   text-transform: uppercase;
 }
@@ -5137,14 +4605,16 @@ abbr[title] {
 }
 
 #mapBox #content .mapInfoWindowRowInner h5 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   color: #000;
   margin-bottom: 10px;
 }
 
 #mapBox #content .mapInfoWindowRowInner p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-bottom: 0;
   color: #777;
 }
@@ -5168,7 +4638,7 @@ abbr[title] {
 }
 
 .contactInfo .media-body h5 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .contactInfo .media-body h5.heading {
@@ -5269,7 +4739,8 @@ abbr[title] {
 
 .latestPosts .latestPost .media-body p {
   font-size: 12px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
 }
 
@@ -5293,7 +4764,8 @@ abbr[title] {
   padding: 0 20px;
   display: block;
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   border-radius: 3px;
   margin-bottom: 5px;
@@ -5411,7 +4883,8 @@ abbr[title] {
 .authorBox .media-body h6 {
   margin: 0;
   font-size: 12px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 1;
   color: #777;
 }
@@ -5423,7 +4896,8 @@ abbr[title] {
 
 .commentBox .media-body p,
 .authorBox .media-body p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 24px;
   color: #777;
   margin: 20px 0 0;
@@ -5444,7 +4918,7 @@ abbr[title] {
 .authorBox .list-inline li a {
   color: #777;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .commentBox .list-inline li a i,
@@ -5474,7 +4948,8 @@ abbr[title] {
 #replyForm form label {
   font-weight: 600;
   font-size: 12px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   text-shadow: none;
 }
@@ -5484,7 +4959,7 @@ abbr[title] {
   margin-bottom: 30px;
   box-shadow: none;
   border-color: #dcdcdc;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #replyForm form textarea.form-control {
@@ -5558,7 +5033,7 @@ abbr[title] {
   border: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
   color: #aaa;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .centeredTabMenu li a:hover,
@@ -5599,7 +5074,8 @@ abbr[title] {
   padding-left: 100px;
   padding-right: 10px;
   font-size: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 1;
   color: #222;
 }
@@ -5619,7 +5095,8 @@ abbr[title] {
 .featuresTexts .media-body a {
   color: #fd405e;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 12px;
   line-height: 22px;
   text-decoration: underline;
@@ -5641,7 +5118,8 @@ abbr[title] {
 }
 
 .contactForm .contactFormD label {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 12px;
   font-weight: 400;
   color: #777;
@@ -5688,7 +5166,8 @@ abbr[title] {
 .contactForm #success span,
 .contactForm #error span {
   line-height: 40px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
   position: absolute;
   top: calc(50% - 20px);
@@ -5741,7 +5220,8 @@ abbr[title] {
 }
 
 .blog .titleRow .date {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 22px;
   color: #777;
   text-align: center;
@@ -5779,7 +5259,7 @@ abbr[title] {
 .blog .titleRow .titlePart p {
   color: #777;
   line-height: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .blog .titleRow .titlePart p a {
@@ -5795,7 +5275,8 @@ abbr[title] {
 }
 
 .blog .excerpt {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
   line-height: 24px;
   color: #777;
@@ -5846,7 +5327,8 @@ abbr[title] {
 .catalogBox .thumbnail .thumbnailInner .hoverBox a {
   color: #fff;
   font-weight: 700;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   position: absolute;
   top: -500%;
@@ -5860,7 +5342,8 @@ abbr[title] {
 }
 
 .catalogBox .catalogType {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   color: #222;
   line-height: 1.3;
@@ -5868,7 +5351,8 @@ abbr[title] {
 
 .catalogBox .catalogType span {
   display: block;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
 }
 
@@ -5880,7 +5364,8 @@ abbr[title] {
 .catalogBox:hover .thumbnail .thumbnailInner .hoverBox a {
   color: #fff;
   font-weight: 700;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   position: absolute;
   top: calc(50% - 34px);
@@ -5907,7 +5392,8 @@ abbr[title] {
 }
 
 .login .loginInner label {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 400;
   color: #777;
 }
@@ -5933,7 +5419,8 @@ abbr[title] {
 
 .login .loginInner .loginForm .form-group:last-child a {
   color: #fd405e;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-left: 20px;
   font-size: 12px;
 }
@@ -5944,7 +5431,8 @@ abbr[title] {
 
 .login .loginInner .accountStart h3 {
   font-size: 22px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #222;
   font-weight: 600;
   margin-bottom: 15px;
@@ -5967,7 +5455,8 @@ abbr[title] {
 }
 
 .orderSummaryInner table thead {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   color: #222;
   border-bottom: 1px solid #dcdcdc;
@@ -5985,7 +5474,8 @@ abbr[title] {
 
 .orderSummaryInner table tbody {
   color: #777;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   border-bottom: 1px solid #dcdcdc;
   padding: 10px 0;
 }
@@ -6010,7 +5500,8 @@ abbr[title] {
 
 .orderSummaryInner table tfoot tr {
   color: #222;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 14px;
 }
 
@@ -6029,7 +5520,8 @@ abbr[title] {
 }
 
 .orderSummaryInner table tfoot tr:last-child {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 16px;
   font-weight: 700;
 }
@@ -6048,7 +5540,8 @@ abbr[title] {
 }
 
 .checkoutForm #shippingAddressEscape + label {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #000;
   font-size: 14px;
   font-weight: 400;
@@ -6065,7 +5558,8 @@ abbr[title] {
 
 .checkoutForm .paymentMethodMode label {
   margin-bottom: 30px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 400;
   color: #222;
   display: block;
@@ -6103,7 +5597,8 @@ abbr[title] {
   line-height: 1;
   border: 1px solid #dcdcdc;
   border-top: 1px solid #dcdcdc !important;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 700;
   color: #222;
   white-space: nowrap;
@@ -6141,7 +5636,8 @@ abbr[title] {
 
 .cartTable .table tbody tr td.price {
   font-size: 18px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   line-height: 1.2;
   color: #222;
 }
@@ -6244,11 +5740,12 @@ abbr[title] {
   color: #777;
   padding: 0 15px;
   line-height: 28px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .shippingTax label {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 12px;
   font-weight: 400;
   color: #222;
@@ -6271,14 +5768,16 @@ abbr[title] {
   display: block;
   line-height: 1;
   color: #777;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   margin-top: 10px;
 }
 
 .totalCheckout .descList dl dt,
 .totalCheckout .descList dl dd {
   text-align: right;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   font-size: 14px;
   font-weight: 400;
@@ -6290,7 +5789,8 @@ abbr[title] {
 .totalCheckout .descList dl dd.gt {
   color: #222;
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-weight: 500;
   margin-top: 5px;
 }
@@ -6376,7 +5876,8 @@ abbr[title] {
 }
 
 #welcome2furniture p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   color: #777;
   line-height: 24px;
   max-width: 880px;
@@ -6539,14 +6040,6 @@ abbr[title] {
   color: #fff;
 }
 
-#header .logo_line .logo .logo_a img {
-  height: 81px;
-}
-
-#header2 .logo a img {
-  max-width: 100%;
-}
-
 #slider .sliderCont .slides .text_lines h4 {
   margin-top: 18px;
 }
@@ -6577,6 +6070,11 @@ abbr[title] {
 .d-carousel-cener .dc-inner img {
   transform: scale(1);
   transition: all 0.3s ease;
+  border-radius: 10px !important;
+}
+
+.d-carousel-cener .active.center {
+  z-index: 9999;
 }
 
 .d-carousel-cener .active.center .dc-inner img {
@@ -6612,7 +6110,8 @@ abbr[title] {
   display: block;
   max-width: 130px;
   margin: auto;
-  font-family: "PT Sans";
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   border: 2px solid #fd405e;
   line-height: 30px;
 }
@@ -6721,7 +6220,8 @@ abbr[title] {
 }
 
 .blog_j_text p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   letter-spacing: 0;
   white-space: nowrap;
   width: 100%;
@@ -6755,7 +6255,8 @@ abbr[title] {
   border-radius: 0;
   color: #555;
   display: inline-block;
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
   font-size: 15px;
   line-height: 35px;
   padding: 0 17px;
@@ -6786,6 +6287,10 @@ abbr[title] {
   margin-right: 9px;
   height: 156px;
   overflow: visible;
+}
+
+.diamond_b img {
+  border-radius: 10px !important;
 }
 
 .ring_cont .btn-gap {
@@ -6955,20 +6460,36 @@ body.home-2 footer .copyRight {
 
 #waIcon {
   position: fixed;
-  bottom: 40px;
-  left: 40px;
+  bottom: 15px;
+  right: 15px;
   z-index: 9999;
   width: 45px;
   height: 45px;
   cursor: pointer;
   border: 0;
   opacity: 1;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#waIcon div {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+#waIcon div h5 {
+  font-weight: bold;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #back-to-top {
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 60px;
+  right: 60px;
   z-index: 9999;
   width: 45px;
   height: 45px;
@@ -6993,12 +6514,6 @@ body.home-2 footer .copyRight {
 
 #back-to-top.show {
   opacity: 1;
-}
-
-#header2 .logo > a {
-  max-width: 74px;
-  margin: auto;
-  display: block;
 }
 
 .home-2 #slider .sliderCont .slides .text_lines > .container {

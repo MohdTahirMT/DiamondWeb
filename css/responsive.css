@@ -1,4 +1,5 @@
 @media (min-width: 768px) and (max-width: 1000000px) {
+
   #header .navbar #mainNav .nav li.dropdown .dropdown-menu,
   #header .navbar #mainNav .nav li.open .dropdown-menu {
     display: block;
@@ -181,10 +182,7 @@
   #header .top_menus .nav li a {
     padding: 0 15px;
   }
-  #header .logo_line .searchSec .searchForm {
-    width: 100%;
-    padding-top: 0;
-  }
+
   #header .navbar {
     min-height: 40px;
   }
@@ -226,10 +224,7 @@
   #header3 .top_menus .nav li a {
     padding: 0 15px;
   }
-  #header3 .logo_line .searchSec .searchForm {
-    width: 100%;
-    padding-top: 0;
-  }
+
   #header3 .navbar {
     min-height: 40px;
   }
@@ -278,6 +273,9 @@
   }
 }
 @media (max-width: 767px) {
+  .navbarSB {
+    display: block;
+  }
   .text_lines .text-left,
   .text_lines .text-right {
     text-align: center;
@@ -309,44 +307,7 @@
     float: none;
     display: inline-block;
   }
-  #header .logo_line {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  #header .logo_line .logo {
-    text-align: center;
-  }
-  #header .logo_line .logo .logo_a {
-    margin: 10px 0;
-  }
-  #header .logo_line .searchSec .searchForm {
-    position: relative;
-  }
-  #header .logo_line .searchSec .searchForm form {
-    position: absolute;
-    z-index: 9999;
-    left: -15px;
-    bottom: -45px;
-    width: 80%;
-  }
-  #header .logo_line .searchSec .searchForm .input-group .form-control {
-    border-bottom: none;
-  }
-  #header .logo_line .searchSec .searchForm .input-group .searchIco {
-    background: #fff;
-    color: #fd405e;
-  }
-  #header .logo_line .searchSec,
-  #header .logo_line .searchSec > div {
-    position: static;
-  }
-  #header .logo_line .searchSec .searchForm .input-group {
-    border-radius: 0;
-  }
-  #header .logo_line .searchSec .searchForm .input-group .form-control {
-    height: 36px;
-    line-height: 36px;
-  }
+
   #header .navbar .navbar-header button {
     text-align: right;
     font-size: 0;
@@ -358,38 +319,10 @@
     font-size: 18px;
     color: #fd405e;
   }
-  #header .logo_line .searchSec .searchForm .input-group .dropdown-menu {
-    margin-top: 0;
-  }
-  #header .logo_line .searchSec .searchForm .input-group .searchIco button {
-    line-height: 36px;
-  }
-  #header .logo_line .logoSearch {
-    display: block;
-  }
-  #header .logo_line .searchSec .wishlistCompare {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-  #header .logo_line .searchSec .wishlistCompare {
-    width: 100%;
-    margin-right: 0;
-    text-align: center;
-    float: none;
-  }
-  #header .logo_line .searchSec .wishlistCompare .nav {
-    float: none;
-  }
-  #header .logo_line .searchSec .cartCount {
-    margin-top: 22px;
-  }
+
   #header .navbar #mainNav {
     max-height: 400px;
-    /* border-bottom: 5px solid #fd405e; */
+
     padding: 0;
   }
   #header .navbar #mainNav .nav {
@@ -472,10 +405,7 @@
   #header .navbar #mainNav .nav.navbar-nav > li:last-child {
     float: none;
   }
-  #header3 .logo_line {
-    margin-bottom: 0;
-    margin-top: 35px;
-  }
+
   #header3 .top_menus {
     padding-bottom: 20px;
   }
@@ -490,56 +420,7 @@
     float: none;
     display: inline-block;
   }
-  #header3 .logo_line {
-    margin-bottom: 0;
-  }
-  #header3 .logo_line .logo {
-    text-align: center;
-  }
-  #header3 .logo_line .logo .logo_a {
-    margin: 10px 0;
-  }
-  #header3 .logo_line .searchSec,
-  #header3 .logo_line .searchSec > div {
-    position: static;
-  }
-  #header3 .logo_line .searchSec .searchForm {
-    width: 100%;
-    position: relative;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group {
-    border-radius: 0;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group .form-control {
-    height: 50px;
-    line-height: 48px;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group .dropdown-menu {
-    margin-top: 0;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group .searchIco button {
-    line-height: 48px;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare {
-    width: 100%;
-    margin-right: 0;
-    text-align: center;
-    float: none;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare .nav {
-    float: none;
-  }
-  #header3 .logo_line .searchSec .cartCount {
-    margin-top: 22px;
-  }
+
   #header3 .navbar #mainNav {
     max-height: 400px;
     border-bottom: 5px solid #fd405e;
@@ -680,23 +561,7 @@
   #header3 .navbar #mainNav .nav li.open .dropdown-menu li a {
     color: #ccc;
   }
-  #header3 .logo_line .searchSec .searchForm form {
-    position: absolute;
-    z-index: 9999;
-    left: -15px;
-    bottom: -45px;
-    width: 80%;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group .form-control {
-    height: 36px;
-    background: rgba(255, 255, 255, 0.09);
-    border-bottom: 0;
-    line-height: 36px;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group .searchIco {
-    background: rgba(255, 255, 255, 0.09);
-    color: #fd405e;
-  }
+
   #header3 .navbar .navbar-header button.collapsed {
     background: transparent;
   }
@@ -707,17 +572,6 @@
   #header3 .navbar .navbar-header i {
     font-size: 18px;
     color: #fd405e;
-  }
-  #header3 .logo_line .searchSec .searchForm .input-group .searchIco button {
-    border: none;
-    background: none;
-    text-shadow: none;
-    color: #fd405e;
-    font-size: 16px;
-    line-height: 35px;
-    width: 35px;
-    padding: 0;
-    text-align: center;
   }
 }
 @media (max-width: 500px) {
@@ -868,11 +722,6 @@
   }
   #header2 .menu:after,
   #header2 .menu2:after,
-  #header2 .logo:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
   #header2 .menu .navbar #mainNav2 ul li a {
     padding: 0 20px;
     font-size: 14px;
@@ -961,9 +810,7 @@
     display: inline-block;
     float: none;
   }
-  #header2 .logo {
-    padding: 6px 0 20px;
-  }
+
   #header2 .menu2 ul li:last-child a {
     width: 15px;
     height: 20px;
@@ -984,7 +831,7 @@
   #header2 .menu .navbar .navbar-header button {
     text-transform: uppercase;
     font-size: 18px;
-    font-family: "PT Sans";
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
   }
   #header2 .menu .navbar-header {
     position: absolute;
@@ -2121,53 +1968,13 @@
   .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     background: none;
   }
-  #header .logo_line .searchSec,
-  #header .logo_line .searchSec > div,
-  #header3 .logo_line .searchSec,
-  #header3 .logo_line .searchSec > div {
-    padding-right: 15px;
-  }
-  #header .logo_line .searchSec .wishlistCompare:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #header .logo_line .searchSec .wishlistCompare .nav {
-    float: none;
-  }
-  #header .logo_line .searchSec .wishlistCompare .nav li {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  #header .logo_line .searchSec .wishlistCompare .nav li.h_cart .hclist {
-    right: -61px;
-    width: 320px;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare .nav li.h_cart .hclist {
-    right: -61px;
-    width: 320px;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare .nav {
-    float: none;
-  }
-  #header3 .logo_line .searchSec .wishlistCompare .nav li {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+
   #header3 .navbar #mainNav .nav li a,
   #header3 .navbar #mainNav .nav > li:first-child > a {
     padding-left: 15px;
     padding-right: 15px;
   }
-  #header3 .logo_line .searchSec .wishlistCompare .nav li.h_cart .hclist {
-    right: -61px;
-    width: 320px;
-  }
+
   #slider .sliderCont .slides .text_lines {
     padding-left: 15px;
     padding-right: 15px;
@@ -2191,6 +1998,9 @@
   #shopFeatures,
   #shopRings {
     padding: 20px 0 36px;
+  }
+  .d-carousel-cener .active.center .dc-inner {
+    padding: 15px;
   }
   .d-carousel-cener .dc-inner .dc-containt h2 {
     margin-top: 0;
@@ -2317,7 +2127,7 @@
     padding-bottom: 60px;
   }
   #back-to-top {
-    right: 15px;
+    left: 15px;
     bottom: 15px;
   }
   #back-to-top {

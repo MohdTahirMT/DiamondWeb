@@ -32,7 +32,7 @@ const getAllCategory = (data) => {
   let allCategory = ``;
   for (let category of data) {
     allCategory += `
-    <li><a onclick="Pass('${category.name}')">${category.name}</a></li>
+    <li style="margin-left: 10px;"><a class="br50p" onclick="Pass('${category.name}')">${category.name}</a></li>
     `;
   }
   document.getElementById("AllCategory").innerHTML = allCategory;
